@@ -1,0 +1,29 @@
+.btn-primary {
+  background-color: #c77dff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #9d4edd;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: #f3e8ff;
+  }
+
+  h1 {
+    color: #9d4edd;
+  }
+}
