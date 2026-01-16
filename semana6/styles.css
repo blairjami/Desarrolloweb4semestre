@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    max-width: 420px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+.campo {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+input.valido {
+    border-color: green;
+}
+
+input.invalido {
+    border-color: red;
+}
+
+.icono {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 18px;
+}
+
+.icono.ok {
+    color: green;
+}
+
+.icono.error {
+    color: red;
+}
+
+small {
+    font-size: 12px;
+    color: #555;
+}
+
+small.error {
+    color: red;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background: #ccc;
+}

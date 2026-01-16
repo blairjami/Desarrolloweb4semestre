@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Registro de Usuario</h1>
+
+<form id="formulario">
+
+    <label>Nombre</label>
+    <div class="campo">
+        <input type="text" id="nombre">
+        <span class="icono" id="iconoNombre"></span>
+    </div>
+    <small id="msgNombre">Mínimo 3 letras (solo letras)</small>
+
+    <label>Correo electrónico</label>
+    <div class="campo">
+        <input type="email" id="correo">
+        <span class="icono" id="iconoCorreo"></span>
+    </div>
+    <small id="msgCorreo">Formato: correo@dominio.com</small>
+
+    <label>Contraseña</label>
+    <div class="campo">
+        <input type="password" id="password">
+        <span class="icono" id="iconoPassword"></span>
+    </div>
+    <small id="msgPassword">8 caracteres, 1 número y 1 símbolo (!@#$%)</small>
+
+    <label>Confirmar contraseña</label>
+    <div class="campo">
+        <input type="password" id="confirmar">
+        <span class="icono" id="iconoConfirmar"></span>
+    </div>
+    <small id="msgConfirmar">Debe coincidir con la contraseña</small>
+
+    <label>Edad</label>
+    <div class="campo">
+        <input type="number" id="edad">
+        <span class="icono" id="iconoEdad"></span>
+    </div>
+    <small id="msgEdad">Debe ser mayor o igual a 18</small>
+
+    <button type="submit" id="enviar" disabled>Enviar</button>
+    <button type="reset">Reiniciar</button>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
