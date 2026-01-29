@@ -1,0 +1,10 @@
+.carousel-box {
+  height: 250px;
+  background-color: #6f42c1;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
